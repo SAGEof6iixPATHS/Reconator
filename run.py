@@ -25,14 +25,14 @@ os.system('python insert.py {}'.format(url))
 sleep(4)
 
 #2_clickjacking
-os.system(f"python modules/clickjacking {url}")
-os.system('python insert.py {}'.format(url))
+#os.system(f"python modules/clickjacking {url}")
+#os.system('python insert.py {}'.format(url))
 
 sleep(4)
 
 #3_corstest
-os.system(f"python modules/corstest {url}")
-os.system('python insert.py {}'.format(url))
+#os.system(f"python modules/corstest {url}")
+#os.system('python insert.py {}'.format(url))
 
 sleep(4)
 
@@ -67,8 +67,8 @@ os.system('python insert.py {}'.format(url))
 sleep(4)
 
 #9_js+link_finder
-os.system(f"bash modules/js-finder.sh {url}")
-os.system('python insert.py {}'.format(url))
+#os.system(f"bash modules/js-finder.sh {url}")
+#os.system('python insert.py {}'.format(url))
 
 sleep(4)
 
@@ -85,8 +85,8 @@ os.system('python insert.py {}'.format(url))
 sleep(4)
 
 #12_subdomains_ip_server
-os.system(f"bash modules/sub_ip_server.sh {url}")
-os.system('python insert.py {}'.format(url))
+#os.system(f"bash modules/sub_ip_server.sh {url}")
+#os.system('python insert.py {}'.format(url))
 
 sleep(4)
 
